@@ -32,9 +32,9 @@
 
 \RequirePackage[
 	letterpaper,
-	left=0.5in,
-	right=0.5in,
-	top=0.5in,
+	left=0.75in,
+	right=0.75in,
+	top=0.75in,
 	bottom=0.5in,
 	nohead
 ]{geometry}
@@ -119,4 +119,12 @@
 \newcommand{\role}[2]{
   {\par \textit{#1} ~ #2 \par}
   \vspace{0.85ex}
+}
+
+
+\newcommand\blfootnote[1]{%
+\begingroup
+\renewcommand\thefootnote{}\footnote{#1}%
+\addtocounter{footnote}{-1}%
+\endgroup
 }
