@@ -121,6 +121,11 @@
   \vspace{0.85ex}
 }
 
+\newcommand{\companyName}[2]{
+  {\par \sffamily{#1} ~ #2 \par}
+  \vspace{0.85ex}
+}
+
 
 \newcommand\blfootnote[1]{%
 \begingroup
