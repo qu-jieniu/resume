@@ -35,7 +35,7 @@
 	left=0.75in,
 	right=0.75in,
 	top=0.75in,
-	bottom=0.5in,
+	bottom=0.25in,
 	nohead
 ]{geometry}
 
